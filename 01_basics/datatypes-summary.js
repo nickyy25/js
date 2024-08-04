@@ -32,4 +32,10 @@ let myObj = {
 
  console.log(typeof myFunction); // object datatype
 
+ // **************************************************
+
+ // stack(primitive), Heap(non-primitive)
+
+ let myName = "Nicky"
+ 
  
