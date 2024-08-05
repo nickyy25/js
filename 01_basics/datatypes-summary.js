@@ -27,15 +27,32 @@ let myObj = {
  // Function Declare
  const myFunction = function(){
      
-    console.log("Hello World");  
+  //  console.log("Hello World");  
  }  
 
- console.log(typeof myFunction); // object datatype
+// console.log(typeof myFunction); // object datatype
 
  // **************************************************
 
  // stack(primitive), Heap(non-primitive)
 
- let myName = "Nicky"
+ let myname = "Nicky"
+ let anothername = myname
+ anothername = "code with nicky"
+
+ console.log(anothername);
+ console.log(anothername);
+
+ let userOne = {
+   email : "user@google.com",
+    upi : "user@ybl"
+ }
+
+ let userTwo = userOne
+ userTwo.email = "nicky@google.com"
+
+ console.log(userTwo.email);
+ console.log(userOne.email);
+
  
  
